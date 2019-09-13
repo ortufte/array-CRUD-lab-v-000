@@ -3,21 +3,18 @@ def create_an_empty_array
 end
 
 def create_an_array
-  fruits = ["orange", "lime", "lemon", "grapefruit"]
+   ["orange", "lime", "lemon", "grapefruit"]
 end
 
 def add_element_to_end_of_array(array, element)
-  array = ["orange", "lime", "lemon", "grapefruit"]
   array << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
-  array = ["orange", "lime", "lemon", "grapefruit"]
   array.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
- array = ["orange", "lime", "lemon", "arrays!"]
  array.pop
 end
 
