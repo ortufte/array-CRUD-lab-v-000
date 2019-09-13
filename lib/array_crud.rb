@@ -1,9 +1,9 @@
 def create_an_empty_array
-  [orange, lime, lemon, grapefruit]
+  [ ]
 end
 
 def create_an_array
-  
+  [orange, lime, lemon, grapefruit]
 end
 
 def add_element_to_end_of_array(array, element)
